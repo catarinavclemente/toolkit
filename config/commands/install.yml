@@ -1,5 +1,0 @@
-command:
-  toolkit:
-    install-clean:
-      options:
-        config-file: ${toolkit.clean.config_file}
