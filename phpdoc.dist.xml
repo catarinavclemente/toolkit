@@ -6,7 +6,7 @@
         xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
     <paths>
-        <output>docs/phpdoc</output>
+        <output>docs</output>
         <cache>docs/cache</cache>
     </paths>
     <version number="3.0.0">
@@ -25,13 +25,5 @@
                 <path>vendor/**/*</path>
             </ignore>
         </api>
-        <guide format="rst">
-            <source dsn=".">
-              <!--1 or more repetitions:-->
-              <path>docs/support</path>
-            </source>
-            <!--Optional:-->
-            <output>docs</output>
-        </guide>
     </version>
 </phpdocumentor>

@@ -4,9 +4,9 @@
 The Docker image comes with all dependencies pre-installed.
 
 
-To update the documentation run the following command. This will update the content inside the folder 'docs/phpdoc'.
+To update the documentation run the following command. This will update the content inside the folder 'docs'.
 ```
-docker run --rm -v $(pwd):/data phpdoc/phpdoc run -d ./  -t ./docs/phpdoc/ 
+docker run --rm -v $(pwd):/data phpdoc/phpdoc run -d ./  -t ./docs/
 ```
 
 ### Other topics
